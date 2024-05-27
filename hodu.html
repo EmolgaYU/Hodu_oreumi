@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="hodu.css">
+    <title>HODU 랜딩페이지</title>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=964387558e3421be92d2f845d3f6852e"></script>
+</head>
+<body>
+
+<div class="wrap">
+<!--  header 로고, nav 시작  -->
+    <header class="header">
+        <div class="header_page">
+            <div class="header_nav">
+                <div class="Logo">
+                    <img src="Logo.svg" alt="페이지 상단 로고">
+                </div>
+                <div class="nav_menu">
+                    <div>Home</div>
+                    <div>About</div>
+                    <div>Support</div>
+                </div>
+                <div class="menu_download_btn">
+                    <button class="btn">Download</button>
+                </div>
+            </div>
+
+
+<!--  header 페이지 시작  -->
+            <h1 class="contents_title">Lorem Ipsum is simply<br>
+                dummy text of the printing and</h1>
+            <div class="contents_txt">
+                Lorem Ipsum is simply dummy text of the printing and<br>
+                typesetting industry. <br>
+                Lorem Ipsum has been the industry's standard dummy text<br>
+                ever since the 1500s, when an unknown
+            </div>
+            <div class="contents_download_button">
+                <button class="btn">Download</button>
+            </div>
+            <div class="box_cat">
+                <img src="box_cat.png" alt="박스를 뒤집어쓴 호두">
+            </div>
+        </div>
+    </header>
+
+<!--  section 페이지 ((상단)) 시작 (background-color: white)  -->
+    <section class="sec_1">
+        <div class="sec_1_img">
+            <img src="bed_cat.png" alt="침대 이불 위에 누워있는 호두">
+        </div>
+        <h2 class=sec1_contents_title>Lorem Ipsum is simply<br>
+            dummy text of the printing<br>
+            and dummy text</h2>
+        <div class="sec1_contents_txt">Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+             industry.
+        </div>
+
+
+        <!--  section 페이지 ((하단)) 시작 (background-color: white)  -->
+        <div class="sec_1_bottom_txt">
+            <div class="bottom_title">dummy text of the printing and dummy</div>
+            <div class="bottom_txt">Lorem Ipsum is simply <strong class="strong">dummy text</strong> of the printing and typesetting industry. <br>
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+            </div>
+        </div>
+    </section>
+
+
+<!--  호두 사진 리스트 (3*1*2배열) 시작  -->
+    <section>
+        <div class="photo_list">
+            <div class="photo_list_1">
+                <img src="cat_img_1.png" alt="캣타워 위에 앉아있는 호두">
+                <img src="cat_img_2.png" alt="변면 콘센트를 바라보는 호두">
+                <img src="cat_img_3.png" alt="정면을 응시하는 호두">
+            </div>
+            <div class="photo_list_2">
+                <img src="cat_img_4.png" alt="얼굴을 확대한 호두 사진">
+                <img src="cat_img_5.png" alt="바닥에서 위쪽을 바라보는 호두">
+                <img src="cat_img_6.png" alt="하품을 하고 있는 호두">
+            </div>
+        </div>
+        <p class="show_more_txt">Continue exploring HODU</p>
+    </section>
+
+
+<!--  (show more) 버튼 클릭 추가 이미지  -->
+    <div class="more_photo">
+        <button class="more_photo_btn">show more</button>
+    </div>
+
+
+<!--  kakao map  -->
+    <section>
+        <hr class="line">
+        <p class="location_title">Where you’ll be</p>
+        <p class="location_txt">330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+    </section>
+
+
+<!--  kakao map api  -->
+    <section class="kakao_map">
+        <div id="map" style="width:500px;height:400px;"></div>
+    </section>
+
+
+<!--  subscribe to blog post 위젯(?)  -->
+    <article class="subscribe">
+        <div class="sub_title">Subscribe to our Blog post</div>
+        <p class="sub_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                           Lorem Ipsum has been the industry's standard dummy text</p>
+        <div class="sub_email">
+            <div class="mail_icon">
+                <img src="email_icon.png" alt="이메일 아이콘">
+            </div>
+            <div class="mail_input">
+                <label><input type="text" id="address_box" placeholder="Enter your e-mail address"></label>
+            </div>
+            <div class="sub_btn">
+                <button class="subscribe_btn">Subscribe</button>
+            </div>
+        </div>
+    </article>
+
+
+<!--  (모달창) subscribe btn  -->
+            <section id="modal">
+            </section>
+
+<!--  하단 마지막 페이지 사진 (look up)  -->
+    <section class="bottom_img">
+        <img src="cat_bottom.png" alt="위를 보는 호두">
+    </section>
+
+<!--  footer  -->
+    <section class="footer">
+        <div>
+            <img src="Logo.svg" alt="페이지 하단 로고">
+        </div>
+        <div class="bottom_icon">
+            <a><img src="blog_icon.png" alt="네이버 블로그 아이콘"></a>
+            <a><img src="insta_icon.png" alt="인스타그램 아이콘"></a>
+            <a><img src="facebook_icon.png" alt="페이스북 아이콘"></a>
+            <a><img src="youtube_icon.png" alt="유튜브 아이콘"></a>
+        </div>
+    </section>
+</div>
+    <script src="hodu.js"></script>
+</body>
+</html>

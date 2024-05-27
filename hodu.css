@@ -1,0 +1,345 @@
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  header 로고, nav 시작   */
+
+.header{
+    width: 1920px;
+    height: 900px;
+    background-color: #F2E9D8;
+}
+
+.header_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_nav{
+    display: flex;
+    align-content: center;
+    padding: 30px;
+}
+
+
+.Logo {
+  /*  margin-left: 70px; */
+}
+
+
+.Logo img {
+    width: 130px;
+    height: 40px;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 750px;
+    gap: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.menu_download_btn{
+    margin-left: 50px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #D97652;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 32px;
+}
+
+/* header 페이지 시작 */
+
+.contents_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 200px;
+    margin-left: -570px;
+}
+
+.contents_txt {
+    font-size: 16px;
+    margin-left: -870px;
+}
+
+.contents_download_button {
+    margin-top: 35px;
+    margin-left: -1150px;
+}
+
+.box_cat {
+    margin-left: 890px;
+    margin-top: -460px;
+}
+
+.box_cat img {
+    width: 415px;
+    height: 766px;
+}
+
+/*  section 페이지 ((상단)) 시작   */
+
+.sec_1_img {
+    display: flex;
+    margin-top: 100px;
+}
+
+.sec_1_img img {
+    width: 660px;
+    height: 390px;
+    top: 1060px;
+    left: 320px;
+    gap: 0;
+    border-radius: 30px;
+}
+
+.sec1_contents_title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 710px;
+    margin-top: -300px;
+}
+
+.sec1_contents_txt {
+    margin-left: 710px;
+}
+
+/* section 페이지 ((하단)) 시작 */
+
+.sec_1_bottom_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.bottom_title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #D97652;
+}
+
+.bottom_txt {
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+
+.strong {
+    color: #D97652;
+}
+
+/*  호두 사진 리스트 (3*1*2배열) 시작  */
+
+.photo_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 25px;
+}
+
+.photo_list_1 img {
+    margin-left: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 30 0 rgba(0, 0, 0, 0.25)
+}
+
+.photo_list_2 img {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 30 0 rgba(0, 0, 0, 0.25)
+}
+
+.show_more_txt {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+/* (show more) 버튼 클릭 추가 이미지 */
+
+.more_photo {
+    display: flex;
+    justify-content: center;
+}
+
+.more_photo_btn {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #D97652;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+    width: 143px;
+    height: 50px;
+    padding: 15px 30px;
+    gap: 10px;
+}
+
+/*  kakao map   */
+
+.line {
+    color: #C4C4C4;
+    width: 1278px;
+    height: 1px;
+    gap: 0;
+    margin-top: 90px;
+}
+
+.location_title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.location_txt {
+    color: #606367;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+/*  kakao map api   */
+
+.kakao_map {
+    display: flex;
+    justify-content: center;
+}
+
+/* subscribe to blog post 위젯(?) */
+
+.subscribe {
+    width: 1280px;
+    height: 200px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #263140;
+    z-index: 0;
+    margin-top: 100px;
+}
+
+.sub_title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: -440px;
+    margin-top: 50px;
+}
+
+.sub_txt {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F2E9D8;
+    margin-left: -470px;
+    margin-top: 120px;
+}
+
+.sub_email {
+    background-color: #FFFFFF;
+    width: 530px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: -470px;
+    border-radius: 60px;
+    border: none;
+}
+
+.mail_icon {
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.mail_input {
+    color: #767676;
+    margin-left: 70px;
+    margin-top: -26px;
+    border: none;
+}
+
+#address_box {
+    border: none;
+}
+
+.sub_btn {
+    margin-left: 390px;
+    margin-top: -33px;
+}
+
+.subscribe_btn {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #D97652;
+    width: 135px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+}
+
+/* (모달창) subscribe btn */
+
+#modal{}
+
+/*  하단 마지막 페이지 사진 (look up)   */
+
+.bottom_img {
+    position: relative;
+    margin-top: -100px;
+    z-index: -2;
+}
+
+/*  footer  */
+
+.footer {
+    display: flex;
+    padding: 40px;
+    margin-bottom: 1px;
+}
+
+.bottom_icon {
+    margin-left: 1000px;
+    margin-top: 10px;
+}
