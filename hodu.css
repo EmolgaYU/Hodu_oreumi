@@ -37,6 +37,7 @@
 }
 
 .nav_menu{
+    text-decoration: none;
     display: flex;
     align-items: center;
     margin-top: 10px;
